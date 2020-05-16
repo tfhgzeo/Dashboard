@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    /* background-color: #6C7A89; */
+    scrollbar-arrow-color: red;
+}
+
+.pagina {
+    height: 100;
+}
+
+.cabecalho {
+    position: relative;
+    height: 10vh;
+    background-color: #6C7A89;
+}
+
+.cabecalho #nomeLoja {
+    padding: 0;
+    margin: 0;
+    float: left;
+    margin-left: 10px;
+    line-height: 10vh;
+}
+
+.leftBar {
+    text-align: left;
+    width: 15vw;
+    height: 90vh;
+    background-color: #6C7A89;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.leftBar p {
+    font-size: larger;
+    width: 100%;
+    cursor: pointer;
+    min-height: 40px;
+    line-height: 40px;
+    margin: 0;
+    padding-left: 10%;
+}
+
+.leftBar #addProdutos {
+    margin-top: 10px;
+}
+
+.leftBar p:hover {
+    background-color: #6E0099;
+    color: white;
+}
+
+.conteudo {
+    position: relative;
+    float: bottom;
+    float: right;
+    top: 2.5vw;
+    width: 83vw;
+    overflow: auto;
+    right: 1.5vw;
+    overflow-y: scroll;
+    overflow: hidden;
+}
+
+.conteudo .grafico {
+    position: relative;
+    float: left;
+    height: 30vh;
+    border: solid 1px #6E0099;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 2.5vw;
+    border-radius: 15px;
+}
+
+.conteudo .produtosMaisVistos {
+    position: relative;
+    float: left;
+    height: 45vh;
+    border: solid 1px #6E0099;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 15px;
+}
+
+.divAvatar {
+    position: relative;
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}

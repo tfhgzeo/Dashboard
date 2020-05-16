@@ -1,0 +1,63 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    outline: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: #6C7A89;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#linha {
+    height: 25px;
+    background-color: #6E0099;
+    border-radius: 50px 50px 0 0;
+}
+
+.login-box {
+    text-align: center;
+    background-color: #fff;
+    width: 300px;
+    height: 320px;
+    border-radius: 30px;
+}
+
+input {
+    font-size: medium;
+    text-align: center;
+    border: solid 1px rgba(255, 255, 255, 0);
+    background-color: rgb(214, 214, 214);
+    height: 40px;
+    width: 80%;
+    outline: none;
+    border-radius: 50px;
+}
+
+input:focus {
+    border: solid 1px #6E0099;
+}
+
+button {
+    color: white;
+    font-size: medium;
+    border: none;
+    background-color: #6E0099;
+    width: 80%;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+button:hover {
+    background-color: rgb(127, 0, 177)
+}
+
+.campoInvalido {
+    border: solid 1px red;
+}

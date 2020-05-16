@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #6C7A89;
+}
+
+.produtoInformations {
+    float: left;
+    background: white;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-top: 5vh;
+    border-radius: 30px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    height: 55vh;
+    margin-bottom: 5vh;
+}
+
+.produtoInformations img {
+    position: relative;
+    float: left;
+    width: 20vw;
+    height: 45vh;
+    margin-top: 5vh;
+    margin-left: 5vw;
+}
+
+.produtoInformations .vendas {
+    position: relative;
+    float: left;
+    width: 55vw;
+    height: 25vh;
+    margin-left: 5vw;
+    border: solid 1px #6E0099;
+    margin-top: 5vh;
+    border-radius: 30px;
+}
+
+.produtoInformations p {
+    float: left;
+    margin-left: 5vw;
+    width: 30vw;
+    margin: 0;
+    margin-top: 5vh;
+    margin-left: 5vw;
+}
+
+.produtoInformations #editar {
+    position: relative;
+    float: right;
+    font-size: 20px;
+    color: #6E0099;
+    margin: 0;
+    margin-right: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.produtoInformations #lixeira {
+    position: relative;
+    float: right;
+    font-size: 20px;
+    color: #6E0099;
+    margin: 0;
+    margin-right: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.comentarios {
+    float: left;
+    background: white;
+    width: 90vw;
+    margin-left: 5vw;
+    border-radius: 30px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    min-height: 30vh;
+    margin-bottom: 5vh;
+}
+
+.comentarios #comentariosTitulo {
+    font-size: 25px;
+    margin-left: 5vw;
+}
+
+.comentarios .comentarioArea {
+    position: relative;
+    float: left;
+    margin-left: 5vw;
+    width: 90%;
+    margin-bottom: 5vw;
+}
+
+.comentario {
+    position: relative;
+    float: left;
+    width: 70%;
+    border-left: solid 1px #6E0099;
+    border-right: solid 1px #6E0099;
+}
+
+.comentario img {
+    position: relative;
+    float: left;
+    width: 45px;
+    height: 45px;
+    border-radius: 30px;
+    margin-left: 20px;
+}
+
+.comentario #nomeUsuario {
+    position: relative;
+    float: left;
+    margin-left: 10px;
+}
+
+.comentario #dataHora {
+    position: relative;
+    float: right;
+    margin-right: 10px;
+}
+
+.comentario #comentario {
+    position: relative;
+    float: left;
+    margin-left: 20px;
+    width: 60%;
+}
+
+.comentario .avaliacao {
+    position: relative;
+    float: left;
+    align-items: center;
+}
+
+.avaliacao .like,
+.dislike {
+    position: relative;
+    float: left;
+    text-align: center;
+    align-items: center;
+    top: 50%;
+}
+
+.like {
+    margin-left: 10%;
+}
+
+.like #like {
+    font-size: 30px;
+}
+
+.dislike {
+    margin-left: 5%;
+}
+
+.dislike #dislike {
+    font-size: 30px;
+}
+
+.avaliacao label {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.voltar {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: #6E0099;
+    color: white;
+    left: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.voltar #voltar {
+    position: relative;
+    top: 13px;
+    left: 13px;
+    font-size: 25px;
+}

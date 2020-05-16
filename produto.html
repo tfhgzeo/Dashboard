@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta Dados -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Meta Dados -->
+
+
+    <!-- Estilos -->
+
+    <link rel="stylesheet" href="css/produtos.css">
+    <script src="https://kit.fontawesome.com/26defb4e11.js" crossorigin="anonymous"></script>
+
+    <!-- Estilos -->
+
+
+    <!-- Firebase -->
+
+    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-auth.js"></script>
+
+    <script src="js/firebaseConfig.js"></script>
+    <script src="js/firebaseInit.js"></script>
+    <script src="js/firebaseAuth.js"></script>
+
+    <!-- Firebase -->
+
+    <title>Produto</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="voltar">
+            <i class="fas fa-arrow-left" id="voltar"></i>
+        </div>
+
+        <div class="produtoInformations">
+            <i class="fas fa-trash" id="lixeira"></i>
+            <i class="fas fa-pen" id="editar"></i>
+            <img src="" id="imgProduto">
+            <p id="nomeProduto" style="font-size: large;"></p>
+            <p id="precoProduto"></p>
+            <div class="vendas">
+                <p>Vendas do produto</p>
+            </div>
+        </div>
+
+        <div class="comentarios">
+
+            <p id="comentariosTitulo">Comentarios do Produto</p>
+
+        </div>
+
+    </div>
+    <script src="js/addComentario.js"></script>
+    <script src="js/comentario.js"></script>
+    <script src="js/deleteDocument.js"></script>
+    <script src="js/idDoProduto.js"></script>
+    <script src="js/produto.js"></script>
+</body>
+
+</html>

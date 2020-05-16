@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <!-- Meta Dados -->
+
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+
+    <!-- Meta Dados -->
+
+
+    <!-- Estilos -->
+
+    <link rel="stylesheet" href="css/addProdutos.css">
+    <!-- <link rel="stylesheet" href="css/el-checkbox-master/dist/checkbox.css"> -->
+    <script src="https://kit.fontawesome.com/26defb4e11.js" crossorigin="anonymous"></script>
+
+    <!-- Estilos -->
+
+
+    <!-- Firebase -->
+
+    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-storage.js"></script>
+
+
+    <script src="js/firebaseConfig.js"></script>
+    <script src="js/firebaseInit.js"></script>
+    <script src="js/firebaseAuth.js"></script>
+
+    <!-- Firebase -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+    <!-- Titulo -->
+
+    <title>Cadastro Produto</title>
+
+    <!-- Titulo -->
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="voltar">
+            <i class="fas fa-arrow-left" id="voltar"></i>
+        </div>
+
+        <div class="formDiv">
+
+            <div class="topBar"></div>
+
+            <h1>Cadastro de Produto</h1>
+            <form class="formualrio">
+                <p>Nome</p>
+                <input type="text" name="produto" id="produto" placeholder="Digite aqui o nome do produto" autofocus>
+
+                <p>Descição</p>
+                <input type="text" name="descricao" id="descricao" placeholder="Digite aqui a descrição do produto">
+
+                <p>Preço</p>
+                <input type="text" name="preco" id="preco" placeholder="Digite aqui o preço do produto" onkeypress="return(mascaraPreco(this,'.',',',event))">
+
+                <p>Imagem</p>
+                <input type="file" name="image" id="image" class="image" value="escolher foto">
+
+                <button id="btnCadastroProduto">Castrar Produto</button>
+            </form>
+
+        </div>
+
+    </div>
+
+    <script src="js/addProdutos.js"></script>
+    <script src="js/uploadImg.js"></script>
+    <script src="js/cadastroProduto.js"></script>
+</body>
+
+</html>
